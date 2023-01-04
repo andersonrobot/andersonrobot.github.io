@@ -570,6 +570,12 @@ pre .javascript .function {
 .post-body .group-picture img {
   margin: 0 auto;
   padding: 0 3px;
+  display: block;
+  margin: 0 auto 20px;
+  text-align: center;
+  -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 0 40px rgba(0,0,0,0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 0 40px rgba(0,0,0,0.1) inset;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 0 40px rgba(0,0,0,0.1) inset;
 }
 .group-picture-row {
   margin-bottom: 6px;
@@ -1169,7 +1175,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #a41685;
+  background: #82ffc1;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1512,6 +1518,16 @@ pre .javascript .function {
     opacity: 0.8;
   }
 }
+.reading-progress-bar {
+  background: #37c6c0;
+  display: block;
+  height: 3px;
+  left: 0;
+  position: fixed;
+  width: 0;
+  z-index: 1500;
+  top: 0;
+}
 .post-body {
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   overflow-wrap: break-word;
@@ -1534,6 +1550,14 @@ pre .javascript .function {
   line-height: 1;
   margin: -20px auto 15px;
   text-align: center;
+}
+.post-body img {
+  display: block;
+  margin: 0 auto 20px;
+  text-align: center;
+  -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 0 40px rgba(0,0,0,0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 0 40px rgba(0,0,0,0.1) inset;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 0 40px rgba(0,0,0,0.1) inset;
 }
 .post-sticky-flag {
   display: inline-block;
